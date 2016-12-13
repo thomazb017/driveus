@@ -644,6 +644,46 @@ header .header__menu.collapse.open {
 }
 /* Homepage Hero End */
 
+/* Winter Special */
+.winter-special {
+  background: #fff;
+  padding: 20vh 0;
+  height: 55vh;
+}
+
+.winter-special {
+  margin-top: -1px;
+  border-bottom: 1px dashed #c0c0c0;
+}
+
+.winter-special h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.winter-special h2 span {
+  font-size: 52px;
+  color: #222;
+  display: block;
+}
+
+.winter-special h2:after {
+  content: "";
+  width: 65px;
+  height: 2px;
+  background: #e9bb59;
+  display: inline-block;
+}
+
+.winter-special p {
+  font-size: 20px;
+  text-align: center;
+  color: #222;
+  margin: 0;
+}
+/* End Winter Special */
+
 /* Business Class */
 .home-page .business-class-section {
   background: #faf9f7;

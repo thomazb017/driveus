@@ -4,6 +4,10 @@
 		font-size: 18px;
 	}
 
+	.winter-special {
+		min-height: 100vh !important;
+	}
+
 	.home-page .services-section,
 	.cars-page .inner-banner,
 	.mercedes-s-class-page .inner-banner,
