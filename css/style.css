@@ -692,6 +692,7 @@ header .header__menu.collapse.open {
 
 .business-class-section .business-item {
   padding: 20px;
+  height: 300px;
 }
 
 .business-class-section .business-item .top-box {
@@ -755,6 +756,96 @@ header .header__menu.collapse.open {
   margin: 0;
 }
 /* Our Business Banner End */
+
+.banner-pickup {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #08141f;
+}
+
+.banner-pickup .section-title {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+
+.banner-pickup .section-title h2 span,
+.banner-pickup .section-title p {
+  color: #fff;
+}
+
+.banner-pickup .section-title p small {
+  font-size: 0.7em;
+}
+
+/* Reviews */
+
+.reviews-area {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.reviews-area .section-title {
+  margin-bottom: 64px;
+}
+
+.reviews-area article {
+  padding-bottom: 2em;
+}
+
+.reviews-area .reviews-view-more {
+  margin-top: 2em;
+}
+
+.reviews-area h2{
+  color: #222;
+}
+
+.rating-view{
+  margin-bottom:7.5px
+}
+
+.rating-view .rating-view__holder{
+  font-size:0;
+  display:inline-block;
+  width:90px;
+  height:18px;
+  background:url(../img/icon/icon-rating-empty.svg) repeat-x left top;
+  text-align:left
+}
+
+.rating-view .rating-view__holder [data-rating]{
+  display:inline-block;
+  height:18px;
+  background:url(../img/icon/icon-rating.svg) repeat-x left top;
+  position:absolute
+}
+
+.rating-view .rating-view__holder [data-rating="0"]{
+  width:0px
+}
+
+.rating-view .rating-view__holder [data-rating="1"]{
+  width:18px
+}
+
+.rating-view .rating-view__holder [data-rating="2"]{
+  width:36px
+}
+
+.rating-view .rating-view__holder [data-rating="3"]{
+  width:54px
+}
+
+.rating-view .rating-view__holder [data-rating="4"]{
+  width:72px
+}
+
+.rating-view .rating-view__holder [data-rating="5"]{
+  width:90px
+}
+
+/* Reviews End */
 
 /* Vehicle List */
 .home-page .vehicle-sorter-area {
@@ -993,7 +1084,7 @@ header .header__menu.collapse.open {
 	height: 100vh;
 }
 
-.range-rover-autobiography-page .inner-banner {
+.mercedes-s560-page .inner-banner {
 	background: url(../img/background-images/homepage6.jpg) #08141f;
   background-attachment: fixed;
   background-position: center center;
@@ -1039,7 +1130,7 @@ header .header__menu.collapse.open {
 }
 
 .single-vehicle-sorter .middle-box-wrapper .price-box {
-  font-size: 24px;
+  font-size: 20px;
   color: #444;
   text-align: left;
   border-bottom: 1px dashed #cecece;
@@ -1048,13 +1139,13 @@ header .header__menu.collapse.open {
 
 .single-vehicle-sorter .middle-box-wrapper .price-box p {
   display: inline-block;
-  width: 75%;
+  width: 60%;
   margin: 0;
 }
 
 .single-vehicle-sorter .middle-box-wrapper .price-box span {
   float: right;
-  font-size: 26px;
+  font-size: 22px;
   color: #e9bb59;
   font-weight: 700;
 }
