@@ -253,11 +253,18 @@ function stickyHeader () {
 }
 
 
+function updateCRYear()
+{
+	$("#crYear").text((new Date()).getFullYear());
+}
+
+
 // Dom Ready Function
 jQuery(document).on('ready', function () {
 	(function ($) {
 		// add your functions
 		accrodion();
+		updateCRYear();
 		GalleryFancyboxActivator();
 		galleryCarousel();
 		singleCarCarousel();

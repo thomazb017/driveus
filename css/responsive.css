@@ -11,7 +11,7 @@
 	.home-page .services-section,
 	.cars-page .inner-banner,
 	.mercedes-s-class-page .inner-banner,
-	.range-rover-autobiography-page .inner-banner,
+	.mercedes-s560-page .inner-banner,
 	.cadillac-escalade-page .inner-banner,
 	.faq-page .inner-banner,
 	.contact-page .inner-banner {
@@ -201,11 +201,11 @@
 	}
 
 	.single-vehicle-sorter .middle-box-wrapper .price-box {
-    	font-size: 18px;
+    	font-size: 16px;
     }
 
     .single-vehicle-sorter .middle-box-wrapper .price-box span {
-    	font-size: 22px;
+    	font-size: 15px;
 	}
 
 	.owl-theme .owl-dots {
@@ -285,11 +285,11 @@
     }
 
     .single-vehicle-sorter .middle-box-wrapper .price-box {
-    	font-size: 15px;
+    	font-size: 14px;
     }
 
     .single-vehicle-sorter .middle-box-wrapper .price-box span {
-    	font-size: 18px;
+    	font-size: 14px;
 	}
 
 	.search-form-box .form-box {width: 100%;float: none;}
