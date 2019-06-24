@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/52299038/google-places-api-reviews-widget
