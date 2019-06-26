@@ -1067,12 +1067,32 @@ header .header__menu.collapse.open {
 }
 
 .cars-page .inner-banner {
-	background: url(../img/background-images/homepage4.jpg) #08141f;
+  background: url(../img/background-images/homepage4.jpg) #08141f;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 	
   height: 100vh;
+}
+
+@media (max-width: 768px) {
+
+  .cars-page .inner-banner {
+    background: url(../img/background-images/homepage4-mobile768.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  .cars-page .inner-banner {
+    background: url(../img/background-images/homepage4-mobile414.jpg);
+    background-position: center top;
+    background-size: cover;
+  }
+
 }
 
 .gmc-denali-xl-page .inner-banner {
@@ -1213,11 +1233,31 @@ header .header__menu.collapse.open {
 /* FAQ */
 .faq-page .inner-banner {
 	background: url(../img/background-images/homepage8.jpg) #08141f;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 
 	height: 80vh;
+}
+
+@media (max-width: 768px) {
+
+  .faq-page .inner-banner {
+    background: url(../img/background-images/homepage8-mobile768.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  .faq-page .inner-banner {
+    background: url(../img/background-images/homepage8-mobile414.jpg);
+    background-position: center top;
+    background-size: cover;
+  }
+
 }
 
 .faq-page .faq-box p {color: #5F5F5F;}
